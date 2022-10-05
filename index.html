@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Formulário</title>
+<meta charset="utf-8" />
+ <link href="style.css" rel="stylesheet" media="all" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+<center><form name="meu_form">
+
+  <h1>Entre em contato</h1>
+
+  <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+  <label for="nome">Nome</label>
+
+  <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+  <label for="fone">Fone</label>
+
+
+  
+    
+    <input type="datetime-local" id="Test_DatetimeLocal" name="Date Of Birth">
+    <label for="fone">Birth</label>
+
+  <input type="email" id="emailid" placeholder="fulano@email.com" name="email" />
+  <label for="email">Email</label>
+
+  <textarea placeholder="Deixe sua opnião"></textarea>
+
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+</form></center>
+</body>
+</html>
